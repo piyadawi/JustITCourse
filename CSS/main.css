@@ -1,0 +1,583 @@
+/*--------------WEBSITE COLOUR SCHEME---------
+Primary colour - rgb(183, 154, 246); //purple for navigation links
+
+Secondary colour - rgb(53, 38, 80); //darker purple
+
+Third colour - rgb(200, 177, 250); //lighter purple--------------*/
+
+/*--------------------------Mobile Style-------------------------*/
+   
+
+/* All iamages and videos will be 100% of their parent */
+
+img,  video{
+    width: 100%;
+}
+/*----------------------Embedded Fonts-----------------------*/
+
+@font-face{ 
+    font-family:'28_days';
+    src: url(../../vendors/fonts/28_Days_Later.ttf);
+    src: url(../../vendors/fonts/28_days_later-webfont.woff),
+        url(../../vendors/28_days_later-webfont.woff2),
+        url(../../vendors/28_days_later-webfont.eot);
+    
+    font-style: normal;
+    font-weight: normal;
+    
+    
+    
+}
+
+/* -----------------GLOBAL STYLES----------------*/
+*{
+    
+    box-sizing: border-box;
+    
+}
+        
+
+body{
+    font-family: serif, sans-serif;
+    font-size: 16px;
+    color: rgb(20, 20, 20);
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+/*-------------------HOME PAGE STYLES---------------*/
+
+
+#homeBgImage{
+    position:relative;
+    background-image: url(../img/trainerHomePage.jpg);
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+        
+}
+
+
+#logoC img{
+    position: absolute;
+    width: 35px;  
+    top: 5px;
+    left: 10px;
+    z-index: 115;
+    position: fixed;
+    
+}
+
+
+#cartIcon{
+    position: absolute;
+    width: 100%; 
+    top: 10px;
+    text-align: center;
+    z-index: 110;
+    position: fixed;
+    
+    
+    
+}
+/* ----------------------Navigation Sector-------------------------------*/
+
+#navC{
+    color: rgb(255, 255, 255); 
+    width: 100%;
+    height: auto;
+    background-color: rgb(53, 38, 80);
+    position: fixed;
+    z-index: 100;
+    border-bottom: 2px solid rgb(183, 154, 246);
+    
+    
+}
+
+/* This is for our cartIcon*/
+
+.fa-shopping-basket{
+    font-size: 2em;
+    color: rgb(200, 177, 250);
+}
+
+
+/*This is styling for our 3 line symbol*/
+.navBtn{
+    font-size: 3em;
+    display: block; /*Review in future*/
+    margin: 0 0 0 90vw;  /*we dont need to use absolute position,use in-line is fine*/
+    color: rgb(255, 255, 255);
+    z-index: 115;
+}
+
+/*--nav li a in nav section--*/
+nav li a, nav li {
+    
+    width: 100%;
+    height: auto;
+    display: block;
+    outline-style: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.menuItems a {
+    
+    padding: 15px 5vw 15px 0;
+    color: rgb(255, 255, 255);
+    text-align: right; 
+    
+}
+
+.menuItems {
+    display: none;
+
+}
+
+/*------------------------------------------------------------*/
+
+    /*-------------Main Page Text and Button--------------------*/
+
+    
+.sloganC{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 25vh;
+    left: 55vw;
+   /* display: block;*/
+    font-size: 2em;
+    font-family: '28_days';
+    
+    
+    
+    
+    
+}
+/* Repeated code*/
+.headingC, .buttonC{
+    width: 100%;
+    position: absolute;
+    
+}
+
+.buttonC{
+    top: 87vh;
+}
+
+.headingC {
+    font-family: 'Lovers Quarrel', cursive, sans-serif;
+    /*display: block;*/
+    text-align: center;
+    color: rgb(255, 255, 255);
+/*    margin: 65vh auto 0 auto;*/
+    top: 80vh;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.newArrival{
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 5px 5px;
+    background-color: rgb(200, 177, 250, 0.2);
+    border: 1px solid rgb(200, 177, 250);
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 25px rgb(209, 36, 43), 0 0 40px rgb(209, 36, 43), 0 0 50px rgb(209, 36, 43),0 0 65px rgb(209, 36, 43),0 0 80px rgb(209, 36, 43);
+    
+
+    
+}
+
+/*-----------------------------------------------------*/
+
+/*----------------STYLING FOR OUR PRODUCTS PAGE---------------------*/
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: lighter;   
+    
+}
+
+h2 {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: lighter;  
+    
+}
+
+.productC {
+    text-align: center;
+    /*flex-grow: 1;*/
+    width: 200;
+   margin: 1%
+   
+}
+
+.SalesproductC {
+    text-align: center;
+    width: 200px;
+    margin: 1%
+    
+}
+
+/*STYLING FOR ALL OUR BUTTON ELEMENT WITHIN PRODUCT*/
+
+.addToCartC {
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: rgb(53, 38, 80);
+  
+}
+
+.addToCartC a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*Pseudo selector inserts content after HTML element*/
+
+
+.addToCartC a:after{
+    
+    font-family: 'Font Awesome 5 Free';
+    /* entering unicode characters */
+    content: "\f07a";
+    font-weight: 900;
+    
+    
+}
+
+figcaption span{
+    display: block;
+    font-weight: bold;
+    
+}
+
+/* Our products container acts as a parent to all elements inside of it */
+
+.allTrainers{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /*column-count: 1;*/
+        
+}
+
+/*.allSalesProducts{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;/*
+    
+    
+}
+
+
+
+/*---------------MEDIA QUERY-------------------*/
+
+/*-----------------Mobile 568px and above-------*/
+@media screen and (min-width: 568px){
+    
+    /* only include what you are changing */
+.sloganC{
+    
+    top: 25vh;
+    left: 75vw; 
+    
+}
+
+
+
+/*-----------------Tablet 568px and above-------*/
+    
+@media screen and (min-width: 568px){
+    
+    /* only include what you are changing */
+.sloganC{
+    
+    top: 25vh;
+    left: 75vw; 
+    
+}
+
+
+
+/*-----------------Tablet 768px and above-------*/
+    
+@media screen and (min-width: 768px){
+    
+    /* Repeated code*/
+.headingC, .buttonC{
+    width: auto;
+    position: absolute;
+    
+}
+
+.sloganC{
+    
+    top: 9vh;
+    left: 75vw;
+    font-size: 2.5em;
+    
+    }
+        
+
+.buttonC{
+    top: 24vh;
+    left: 75vw;
+}
+
+    
+.headingC {
+    font-family: 'Lovers Quarrel', cursive, sans-serif;
+    /*display: block;*/
+    top: 20vh;
+    font-size: 2em;
+    letter-spacing: 2px;
+    left: 75vw;
+}
+    
+.newArrival{
+   
+    padding: 8px 20px;
+    margin: 0 auto;
+    
+        
+    }
+
+#homeBgImage{
+    
+    height: 50vh;
+        
+    }
+
+ /*-----------------------------------------------*/
+    
+    
+    
+    
+/*-----------------DESKTOP 1024px and above-------*/
+    
+    @media screen and (min-width: 1024px){
+    
+#homeBgImage{
+            /* return our image to regular size*/
+            height: 100vh;
+        }
+        
+.menuItems{
+            
+            display: inline;
+        }
+        
+.menuItems a {
+            display: inline;
+  
+            padding: 0px 5px;
+            
+        }
+        
+#logoC img{
+            position: absolute;
+            width: 15%;
+            top: 10vh;
+            left: 5vw;
+            z-index: 90;
+             
+        }
+        
+.sloganC{
+    
+    top: 45vh;
+    left: 70vw;
+   /* display: block;*/
+    font-size: 4em;
+    
+        
+    }
+
+ .headingC {
+     
+    top: 80vh;
+    font-size: 4em;
+    letter-spacing: 2px;
+    left: 8vw;       
+
+    }
+        
+.buttonC{
+    
+    top: 87vh;
+    left: 8vw;
+}
+
+        
+.newArrival{
+    
+    padding: 15px 20px;
+    border: 1px solid rgb(200, 177, 250); 
+    margin: 0 auto;
+    font-size: 25px;
+        }
+        
+.navBtn, #cartIcon{
+            display: none;
+        }
+    
+        
+#navC{
+    color: rgb(255, 255, 255); 
+    height: 5%;
+    position: fixed;
+    z-index: 100;
+    border: none;
+    text-align: right;
+    padding: 1.5vh 0;
+        }
+        
+        
+nav a {
+            font-size:  0.8em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+                  
+        }
+        
+        
+        
+.menuItems li {
+            display: inline;
+            border: none;
+            
+            
+        }
+        
+nav li a, nav li {
+     
+    width: 100%;
+    height: auto;
+    display: block;
+    outline-style: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+     }
+
+
+    .productC {
+        width: 200px;
+    }
+    
+    .SalesproductC {
+        width: 200px;
+    }
+       
+    
+    figcaption{
+        min-height: 90px;
+    }
+    
+    
+    /*-----------------------------------------------------*/
+    
+    
+    /*-----------------DESKTOP 1280px and above-------*/
+    @media screen and (min-width: 1280px){
+        
+      #homeBgImage{
+            background-image: none;
+               
+        }
+        
+        .myVideo{
+            display: inline-block;
+            position: absolute;
+            background-size: cover;
+            top:  0;
+            right: 0;
+            width: 100%;
+            height: auto;
+            background-attachment: fixed;
+            z-index: -100%;
+           /* background: linear(rgb);*/
+             
+        }
+        
+        .videoSetup{
+            background: rgba(0, 0, 0, 0.72); 
+            overflow-y: hidden;
+            height: auto;
+            
+        }
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+/*figure{
+    
+}
+
+.contact{
+    text-align: center;
+    position: relative;
+    background-image: url(../img/trainerContactBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+.contactBtn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 38, 80);
+    text-decoration: none; */

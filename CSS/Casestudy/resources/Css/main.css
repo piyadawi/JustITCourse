@@ -1,0 +1,44 @@
+/*--------------WEBSITE COLOUR SCHEME---------
+Primary colour - rgb(183, 154, 246); //purple for navigation links
+
+Secondary colour - rgb(53, 38, 80); //darker purple
+
+Third colour - rgb(200, 177, 250); //lighter purple--------------*/
+
+
+
+/* -----------------GLOBAL STYLES----------------*/
+body{
+    font-family: serif, sans-serif;
+    font-size: 16px;
+    color: rgb(36, 35, 35);
+    margin: 0;
+    padding: 0;
+
+}
+
+/*-------------------HOME PAGE STYLES---------------*/
+
+
+#homeBgImage{
+    background-image: url(../img/trainerHomePage.jpg);
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+        
+}
+
+
+#logo img{
+    width: 60px;
+    
+    
+    
+}
+
+
+
+
+
