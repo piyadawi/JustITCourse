@@ -1,0 +1,25 @@
+a {
+  color: #FF69B4;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #FF69B4;
+  outline: none;
+  text-decoration: none;
+}
+:-webkit-selection {
+  color: #fff;
+  background:  #FF69B4;
+}
+
+::-moz-selection {
+  color: #fff;
+  background:  #FF69B4;
+}
+
+::selection {
+  color: #fff;
+  background:  #FF69B4;
+}
