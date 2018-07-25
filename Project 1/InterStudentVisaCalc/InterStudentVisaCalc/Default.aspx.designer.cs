@@ -22,6 +22,15 @@ namespace InterStudentVisaCalc {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// vs control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary vs;
+        
+        /// <summary>
         /// lbCourseFee control.
         /// </summary>
         /// <remarks>
@@ -58,6 +67,15 @@ namespace InterStudentVisaCalc {
         protected global::System.Web.UI.WebControls.TextBox tbVisaFee;
         
         /// <summary>
+        /// cvVisaFee control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator cvVisaFee;
+        
+        /// <summary>
         /// lbIHealthS control.
         /// </summary>
         /// <remarks>
@@ -74,6 +92,15 @@ namespace InterStudentVisaCalc {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbIHealthS;
+        
+        /// <summary>
+        /// cvIHealthS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator cvIHealthS;
         
         /// <summary>
         /// Label1 control.
@@ -101,6 +128,15 @@ namespace InterStudentVisaCalc {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbIOMTest;
+        
+        /// <summary>
+        /// cvIOMTest control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator cvIOMTest;
         
         /// <summary>
         /// Label3 control.
@@ -148,13 +184,13 @@ namespace InterStudentVisaCalc {
         protected global::System.Web.UI.WebControls.TextBox tbMisc;
         
         /// <summary>
-        /// RadioButtonList1 control.
+        /// cvMisc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
+        protected global::System.Web.UI.WebControls.CustomValidator cvMisc;
         
         /// <summary>
         /// lbCostsOfLiving0 control.
@@ -164,6 +200,15 @@ namespace InterStudentVisaCalc {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbCostsOfLiving0;
+        
+        /// <summary>
+        /// RadioButtonList1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
         
         /// <summary>
         /// LeaveToEnterPanel control.
@@ -200,6 +245,15 @@ namespace InterStudentVisaCalc {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbMonth;
+        
+        /// <summary>
+        /// Label4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
         /// LeaveToRemainPanel control.

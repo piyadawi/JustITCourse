@@ -94,5 +94,9 @@ namespace InterStudentVisaCalc
             //                                    meal + "','" + activities + "','" + spendingMoney + "','" + misc + "','" + total + "');", true);
         }
 
+        protected void tbCourseFee_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     }
